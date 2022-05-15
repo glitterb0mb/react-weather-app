@@ -1,0 +1,8 @@
+.Weather {
+  border: 3px solid #000957;
+}
+
+.img {
+  display: block;
+  max-width: 45px;
+}
