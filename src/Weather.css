@@ -1,14 +1,62 @@
 .Weather {
-  border: 3px solid #000957;
+  border: 3px solid #344cb7;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  color: #000957;
+  padding: 15px;
+  margin: 30px auto;
+  max-width: 650px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.Weather form {
+  margin-bottom: 25px;
 }
 
 .Weather h1 {
-  color: #000957;
   display: block;
-
   font-size: 25px;
   font-weight: bolder;
   height: 30px;
   line-height: 25px;
   text-align: left;
+  margin: 25px 0 0 0;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+  text-align: left;
+  list-style: none;
+}
+
+.Weather img {
+  margin-right: 15px;
+}
+
+.Weather .temp {
+  font-weight: bolder;
+  font-size: 55px;
+  line-height: 70px;
+  color: #344cb7;
+}
+
+.Weather .unit {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: -25px;
+  line-height: 1;
+  margin-left: 5px;
 }
