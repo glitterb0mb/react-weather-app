@@ -16,7 +16,7 @@ export default function Weather(props) {
       city: response.data.name,
       description: response.data.weather.description,
       date: new Date(response.data.dt * 1000),
-      icon: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
 
     function search() {
@@ -61,6 +61,7 @@ export default function Weather(props) {
         </div>
       );
     } else {
+      search();
       return "Loading...";
     }
   }
