@@ -2,7 +2,13 @@
   border: 3px solid #000957;
 }
 
-.img {
+.Weather h1 {
+  color: #000957;
   display: block;
-  max-width: 45px;
+
+  font-size: 25px;
+  font-weight: bolder;
+  height: 30px;
+  line-height: 25px;
+  text-align: left;
 }
