@@ -42,13 +42,14 @@
 }
 
 .Weather canvas {
-  margin-right: 15px;
+  margin-right: 25px;
   margin-top: 5px;
   color: #344cb7;
 }
 
 .Weather .temp {
   font-weight: bolder;
+  margin-left: 55px;
   font-size: 55px;
   line-height: 70px;
   color: #344cb7;
@@ -60,5 +61,13 @@
   position: relative;
   top: -25px;
   line-height: 1;
-  margin-left: 5px;
+  margin-left: 35px;
+}
+
+.WeatherTemp .temp {
+  font-weight: bolder;
+  margin-left: 55px;
+  font-size: 55px;
+  line-height: 70px;
+  color: #344cb7;
 }
