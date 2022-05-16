@@ -41,8 +41,10 @@
   list-style: none;
 }
 
-.Weather img {
+.Weather canvas {
   margin-right: 15px;
+  margin-top: 5px;
+  color: #344cb7;
 }
 
 .Weather .temp {
