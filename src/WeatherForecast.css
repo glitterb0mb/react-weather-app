@@ -1,0 +1,12 @@
+.WeatherForecast {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.tempMin {
+  color: #344cb7;
+}
+.tempMax {
+  color: #000957;
+  margin-left: 5px;
+}
