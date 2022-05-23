@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React, { useState, useEffect } from "react";
 import WeatherForecastDay from "./WeatherForecastDay";
 import "./WeatherForecast.css";
@@ -20,8 +21,7 @@ export default function WeatherForecast(props) {
     return (
       <div className="WeatherForecast">
         <div className="row">
-          // eslint-disable-next-line array-callback-return
-          {forecast.map((dailyForecast, index) => {
+          {forecast.map(function (dailyForecast, index) {
             if (index < 6) {
               return (
                 <div className="col" key={index}>
