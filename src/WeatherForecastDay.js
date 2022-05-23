@@ -4,7 +4,7 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherForecastDay(props) {
   return (
     <div>
-      <div className="ForecastDay">{props.data[0].dt}</div>
+      <div className="ForecastDay">{props.data.dt}</div>
       <WeatherIcon code={props.data[0].weather[0].icon} size={35} />
       <div className="ForecastTemp">
         <span className="tempMin">{props.data[0].temp.min}°</span>
