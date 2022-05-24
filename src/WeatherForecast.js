@@ -10,7 +10,7 @@ export default function WeatherForecast(props) {
 
   useEffect(() => {
     setLoaded(false);
-  }, [props.coordinates]);
+  }, [props.coords]);
 
   function load() {
     let apiKey = "4336cf00330d92fa77dc785a011b1e86";
